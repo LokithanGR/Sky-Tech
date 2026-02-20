@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Footer({ shop }: { shop: string }) {
+export default function Footer({ shop, phone }: { shop: string; phone?: string }) {
   return (
     <footer className="border-t bg-white">
       <div className="mx-auto max-w-6xl px-4 py-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
